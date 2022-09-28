@@ -1,0 +1,15 @@
+//Factorial
+import java.util.*;
+public class Fact{
+    public static void main(String[] args){
+        int n,i=1,fact=1;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        n = sc.nextInt();
+        while(i<=n){
+            fact = fact * i;
+            i++;
+        }
+        System.out.println("factorial is "+fact+".");
+    }
+}
